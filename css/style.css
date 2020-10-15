@@ -1,0 +1,50 @@
+body {
+  background: white;
+}
+
+header {
+  margin-top: 35px;
+}
+
+.container-fluid {
+  padding-top: 25px;
+  height: 435px;
+  background: white;
+}
+
+.thumbnail {
+  height: 395px;
+  width: 335px;
+  border: none;
+  border-radius: 0;
+}
+
+h1 {
+  font-size: 29px;
+  color: green;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: green;
+  text-align: center;
+}
+
+h3 {
+  font-size: 12px;
+  color: green;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: lightskyblue;
+  z-index: 9999;
+  border: 0;
+  color: green;
+  font-weight: 700;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
