@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/car.css">
   <link rel="stylesheet" href="css/fish.css">
   <link rel="stylesheet" href="css/energy.css">
+  <link rel="stylesheet" href="css/ball.css">
+  <script src="./js/app.js"></script>
 </head>
 
 <body>
@@ -20,11 +22,9 @@
   </nav>
 
   <header>
-    <!-- Container (P <div class="jumbotron text-center">ortfolio Section) -->
     <div class="container-fluid text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
-
           <div id="car-container">
             <h1>Electric car</h1>
             <div id="street">
@@ -87,10 +87,8 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
-
 
       <div class="col-sm-4">
         <div class="thumbnail">
@@ -114,13 +112,24 @@
             <div class="hill">
             </div>
           </div>
-
         </div>
       </div>
-
     </div>
-
   </header>
+
+  <section>
+    <h1>Click on the balls!</h1>
+    <h3>Counter: <span class="counter">0</span> points</h3>
+    <div class="col-sm-12">
+      <div class="balls-container">
+        <button class="ball1">Cach<br>me</button>
+        <button class="ball2">Cach<br>me</button>
+        <div id="shadow1"></div>
+        <div id="shadow2"></div>
+      </div>
+      <div class="grass"></div>
+    </div>
+  </section>
 
 </body>
 

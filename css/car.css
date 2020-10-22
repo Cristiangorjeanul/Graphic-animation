@@ -157,7 +157,7 @@
   position: relative;
   background-color: green;
   width: 2px;
-  left: 60px;
+  left: 70px;
   height: 110px;
   bottom: 88px;
   transform: skewX(28deg) skewY(30deg);
@@ -194,7 +194,7 @@
   background: green;
   border-radius: 35%;
   bottom: 41px;
-  left: 70px;
+  left: 80px;
 }
 
 /* end of car body*/
