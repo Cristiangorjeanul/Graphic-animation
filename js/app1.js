@@ -1,15 +1,17 @@
 $(function () {
 
-    var words = [' Welcome to animations! ', 'This is an animated title', 'Electric car application', ' Golden fish application', 'Green energy application', 'Click the tennis balls'],
+    var words = [' Welcome to animations! ', 'I am an animated title!',
+        'Electric car test drive!', ' Say a wish to Goldfish!',
+        'Green energy, fresh air!', 'Click the tennis balls!'],
         part,
         i = 0,
         offset = 0,
         len = words.length,
         forwards = true,
         skip_count = 0,
-        skip_delay = 350,
-        speed = 10;
-    var wordflick = function () {
+        skip_delay = 150,
+        speed = 8;
+    var animatedWord = function () {
         setInterval(function () {
             if (forwards) {
                 if (offset >= words[i].length) {
@@ -44,7 +46,7 @@ $(function () {
     };
 
     $(document).ready(function () {
-        wordflick();
+        animatedWord();
     });
 
 
